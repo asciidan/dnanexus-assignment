@@ -1,0 +1,6 @@
+.cache/*
+!.cache/.gitkeep
+node_modules/
+dist/
+data.txt
+.env

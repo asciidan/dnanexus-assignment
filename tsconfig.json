@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "target": "es2020",
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "outDir": "dist",
+        "lib": ["es2020"],
+        "types": ["node"],
+        "resolveJsonModule": true,
+        "emitDecoratorMetadata": true,
+        "useUnknownInCatchVariables": false,
+        "baseUrl": "./src/"
+    },
+    "include": ["./src/**/*.ts"]
+}

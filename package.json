@@ -1,0 +1,27 @@
+{
+    "name": "@asciidan/dnanexus-assignment",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "build": "rimraf ./dist && tsc -p tsconfig.build.json",
+        "start": "node -r dotenv/config dist/index.js",
+        "start:dev": "ts-node-dev -r dotenv/config dist/index.js"
+    },
+    "engines": {
+        "node": ">=20.0.0",
+        "npm": ">=8.0.0"
+    },
+    "author": "Daniel Knotek",
+    "license": "UNLICENSED",
+    "private": true,
+    "description": "DNAnexus Programming Challenge solution",
+    "devDependencies": {
+        "@types/node": "^20.12.7",
+        "rimraf": "^6.0.1",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5"
+    }
+}

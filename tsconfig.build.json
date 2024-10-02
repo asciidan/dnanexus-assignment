@@ -1,0 +1,4 @@
+{
+    "extends": "./tsconfig.json"
+    // Exclude test files from the build when implemented in the future
+}
